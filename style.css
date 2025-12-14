@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    background-image: url(images/hotel\ bedroom.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
+    text-align: center;
+    width:100%;
+    background-color: #2E8B57;
+    position: fixed;
+    margin-bottom:0px;
+}
+#title {
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 20px;
+    
+}
+.menu {
+   margin:8px 20px;
+   color: white;
+   padding: 5px 8px;
+   display: inline-block;
+   text-decoration: none;
+   font-weight: bolder;
+   font-size: 20px;
+}
+.menu:hover {
+    color: yellow;
+
+}
+.main{
+    background-image: url(images/Sea\ star\ Image_3ufrh73ufrh73ufr.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 400px;
+    text-align: center;
+    margin-top:0px;
+}
+#w-text {
+    color: white;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 3px 3px 4px #000000;
+    margin-top: 0px;
+}
+#p-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #000000;
+}
+.a-text {
+    color: darkblue;
+    text-align: center;
+    object-position: center;
+    padding-top: 30px;
+    padding-left: 90px;
+    border-bottom: 2px solid darkblue ;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 40px 40px;
+}
+#mid3 {
+    width:600px
+    align-items: center;
+    text-align: center;
+    margin:20px 15px;
+    background-color: #90e0ef;
+    border-radius: 5px;
+
+}
+#mid4 {
+    width:600px
+    align-items: center;
+    text-align: center;
+    margin:20px 15px;
+    background-color: #90e0ef;
+    border-radius: 5px;
+
+}
+.mid1 {
+    width:200px;
+    height: 400px;
+    margin: 20px 70px;
+    border-radius: 15px;
+    background-color:#ccff33;
+    padding: 20px;
+}
+.mid2 {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.culture, .adventure, .beach, .wildlife {
+    width: 400px;
+    height: 400px;
+    margin: 20px 30px;
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 15px;
+}
+.activity {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.meal, .accomodation, .medical, .Recreation {
+    width: 400px;
+    height: 400px;
+    margin: 20px 30px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 15px;
+}
+.accomodation:hover, .meal:hover, .medical:hover, .Recreation:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-color: #caf0f8;
+}
+.adventure:hover, .culture:hover, .beach:hover, .wildlife:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    background-color: #caf0f8;
+}
+.feedback {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    object-position: center;
+    text-align: center;
+    object-position: center;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+#fd-title {
+    color:white;
+    text-shadow: 3px 3px 2px #000000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+    
+}
+.fd {
+    width: 500px;
+    height: 150px;
+    background-color: #E8F5E9;
+    margin: 10px 30px;
+    border-left: 6px solid #29bf12;
+    padding: 10px;
+    display: block;
+    vertical-align: center;
+    text-align: center;
+    border-radius: 15px;
+}
+.fd-n {
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.agency-inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 20px;
+}
+.founder-inf {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 60%; 
+    max-width: 800px;
+    margin: 60px auto; 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 15px rgba(0,0,0,0.1); 
+}
+.founder-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid green;
+}
+.fb-logo {
+    width:30px;
+    height: 30px;
+    object-fit: cover;
+}
+.tiktok-logo {
+    width:30px;
+    height: 30px;
+    object-fit: cover;
+}
+#company-inf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+    gap: 40px;
+
+    width: 60%; 
+    max-width: 800px;
+    margin: 60px 60px; 
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1); 
+
+}
+.company-logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+    border: 2px solid green;
+}
+
+   
+    
